@@ -1,4 +1,4 @@
-# CRUD Opeartions
+# CRUD Operations
 
 In this repository, you'll find some practice about:
 * Create, Read, Update and Delete records
