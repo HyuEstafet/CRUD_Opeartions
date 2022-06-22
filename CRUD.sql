@@ -8,7 +8,6 @@ VALUES (001,'Nick Clements','nick@email.com','+44765982735',34,TRUE,TRUE,CURRENT
 INSERT INTO customers (customer_id,customer_name,customer_email,customer_phone,customer_age,gdpr_status,customer_profile_status,date_profile_created,date_profile_deactivated,deactivation_reason,customer_notes)
 VALUES (005,'Abby Simons','abbys@email.com','+44775982735',40,TRUE,TRUE,CURRENT_TIMESTAMP,NULL,NULL,'Just an example text for Abby');
 
-
 --Create customer with the mandatory fields
 INSERT INTO customers (customer_id,customer_name,customer_email,customer_phone,gdpr_status,customer_profile_status)
 VALUES (002,'Federica Silvi','feds@email.com','+44745906545',FALSE,TRUE)
